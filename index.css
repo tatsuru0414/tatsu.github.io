@@ -495,5 +495,8 @@ body {
   .contact .btn a {
     font-size: 25px;
   }
+  .contact-message{
+    font-size: 14px;
+  }
 }
 /*# sourceMappingURL=index.css.map */
