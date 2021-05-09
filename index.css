@@ -495,7 +495,7 @@ body {
   .contact .btn a {
     font-size: 25px;
   }
-  .contact-message p {
+  .contact .contact-message p {
     font-size: 14px;
   }
 }
