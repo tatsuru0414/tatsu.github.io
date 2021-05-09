@@ -479,7 +479,6 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-flow: column;
             flex-flow: column;
-    justify-content: center;
   }
   .service .service-wrapper .service-container .service-item {
     padding: 30px 10px;
