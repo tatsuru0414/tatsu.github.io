@@ -5,19 +5,20 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TATSU’S CREATE</title>
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="./css/index.css">
   <!-- <link rel="stylesheet" href="./css/index.scss"> -->
-  <link rel="stylesheet" href="aos.css">
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="slick.css">
-  <link rel="stylesheet" href="slick-theme.css">
+  <link rel="stylesheet" href="./css/aos.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/slick.css">
+  <link rel="stylesheet" href="./css/slick-theme.css">
 </head>
 
 <body>
 
   <div class="nav-list-hamburger">
     <ul>
-      <li><a href="#">Home</a></li>
+      <li><a href="#plofile">Plofile</a></li>
+      <li><a href="#skills">Skills</a></li>
       <li><a href="#service">Service</a></li>
       <li><a href="#works">Works</a></li>
       <li><a href="#contact">Contact</a></li>
@@ -27,10 +28,11 @@
   <header>
     <div class="header">
       <div class="header-wrapper">
-        <img src="./image/TATSU'S CREATE ロゴ.png" alt="">
+        <img src="./image/TATSU'S CREATE ロゴ.png" alt="#">
         <div class="nav">
           <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="#plofile">Profile</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#service">Service</a></li>
             <li><a href="#works">Works</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -45,8 +47,68 @@
     </div>
   </header>
 
+
   <section class="top">
     <h1 data-aos="fade-up" data-aos-duration="3000">TATSU’S CREATE</h1>
+  </section>
+
+  <section class="plofile" id="plofile">
+    <div class="plofile-wrapper">
+      <div class="section-title">
+        <h2 data-aos="fade-up" data-aos-duration="3000">Plofile</h2>
+      </div>
+      <div class="profile-containter">
+        <img data-aos="fade-up" data-aos-duration="3000" src="./image/plofile.jpg" alt="">
+        <div class="plofile-introduction">
+          <h2 data-aos="fade-up" data-aos-duration="3000">INTRODUCTION</h2>
+          <p data-aos="fade-up" data-aos-duration="3000">初めまして。小池 建と申します。<br>
+            「質」と「スピード」を重視することで、期待以上のものを提供させていただきます。<br>
+            また、クライアント様に寄り添った丁寧なコミュニケーションを常に心がけ、 最後まで責任を持って、仕事に取り組ませていただきます。</p>
+        </div>
+        <div class="plofile-education">
+          <h2 data-aos="fade-up" data-aos-duration="3000">EDUCATION</h2>
+          <p data-aos="fade-up" data-aos-duration="3000">1996年：千葉県千葉市出身<br>
+            2015年：千葉県立幕張総合高等学校普通科卒業<br>
+            2019年：明治大学政治経済学部政治学科卒業<br>
+            オンラインプログラミングコンテンツ「ZONE」受講。
+            独学で「HTML・CSS」、「Javascript・JQuery」、「WordPress」を学習。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <div class="skills-wrapper">
+      <div class="section-title">
+        <h2 data-aos="fade-up" data-aos-duration="3000">Skills</h2>
+      </div>
+      <div data-aos="fade-up" data-aos-duration="3000" class="skills-containter">
+        <div class="skills-item">
+          <img src="./image/html.png" alt="">
+          <p>Level:★★★★★</p>
+        </div>
+        <div class="skills-item">
+          <img src="./image/css.png" alt="">
+          <p>Level:★★★★★</p>
+        </div>
+        <div class="skills-item">
+          <img src="./image/jquery.png" alt="">
+          <p>Level:★★★</p>
+        </div>
+        <div class="skills-item">
+          <img src="./image/javascript.png" alt="">
+          <p>Level:★★★</p>
+        </div>
+        <div class="skills-item">
+          <img src="./image/wordpress.png" alt="">
+          <p>Level:★★★</p>
+        </div>
+        <div class="skills-item">
+          <img src="./image/bootstrap.png" alt="">
+          <p>Level:★★★</p>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section class="service" id="service">
@@ -64,14 +126,12 @@
         <div class="service-item">
           <h3 class="service-title">LP制作</h3>
           <img src="./image/works2.png" alt="#">
-          <p>ご要望に基づき、実用的なHPを制作いたします。
-            <br>シンプルでかつ洗練されたデザインはお任せください。</p>
+          <p>お客様に不快感を与えない、最適なデザインかつ、<br>信頼感を与えられるLPサイトをご提供します。</p>
         </div>
         <div class="service-item">
           <h3 class="service-title">コーディング</h3>
           <img src="./image/works3.png" alt="#">
-          <p>ご要望に基づき、実用的なHPを制作いたします。
-            <br>シンプルでかつ洗練されたデザインはお任せください。</p>
+          <p>wordpressを使用した更新性の高いサイト、<br>Javascriptを使用した動きのあるサイトなどを制作いたします。</p>
         </div>
       </div>
     </div>
@@ -84,7 +144,7 @@
       </div>
       <div class="works-container">
         <div data-aos="fade-up" data-aos-duration="3000" class="works-items">
-          <img src="./image/screenshot1.png" alt="">
+          <a href="http://youtube-wordpress.local/" target="_blank"><img src="./image/screenshot1.png" alt=""></a>
           <p>架空の温泉宿</p>
         </div>
         <div data-aos="fade-up" data-aos-duration="3000" class="works-items">
@@ -109,7 +169,7 @@
         <h2 data-aos="fade-up" data-aos-duration="3000">Contact</h2>
       </div>
       <div class="btn">
-        <p data-aos="fade-up" data-aos-duration="3000"><a href="#">お問い合わせはこちら</a></p>
+        <p data-aos="fade-up" data-aos-duration="3000"><a href="https://docs.google.com/forms/d/e/1FAIpQLSevaIYdZqu9mV183nSxdf-8QHu_TgWMk5JPEcWQRs1uDkTjDQ/viewform?usp=sf_link">お問い合わせはこちら</a></p>
       </div>
       <div data-aos="fade-up" data-aos-duration="3000" class="contact-message">
         <p>お気軽にお問合わせ・ご相談ください。<br>
@@ -125,7 +185,8 @@
       <div class="footer-wrapper">
         <div class="nav">
           <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="plofile">Plofile</a></li>
+            <li><a href="skills">Skills</a></li>
             <li><a href="#service">Service</a></li>
             <li><a href="#works">Works</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -138,8 +199,8 @@
 
 
   <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
-  <script src="aos.js"></script>
-  <script src="index.js"></script>
-  <script src="slick.min.js"></script>
+  <script src="./js/aos.js"></script>
+  <script src="./js/index.js"></script>
+  <script src="./js/slick.min.js"></script>
 </body>
 </html>
