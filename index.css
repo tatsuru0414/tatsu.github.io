@@ -484,6 +484,7 @@ body {
     padding: 30px 10px;
     width: 80%%;
     margin: 0 auto 40px;
+    justify-content: center;
   }
   .works {
     height: 100%;
