@@ -446,6 +446,21 @@ body {
     top: 80%;
     line-height: 1.3;
   }
+  .plofile .plofile-wrapper .profile-containter img {
+    height: 200px;
+  }
+  .plofile .plofile-wrapper .profile-containter .plofile-introduction h2 {
+    font-size: 25px;
+  }
+  .plofile .plofile-wrapper .profile-containter .plofile-introduction p {
+    font-size: 14px;
+  }
+  .plofile .plofile-wrapper .profile-containter .plofile-education h2 {
+    font-size: 25px;
+  }
+  .plofile .plofile-wrapper .profile-containter .plofile-education p {
+    font-size: 14px;
+  }
   .skills {
     height: 100%;
   }
@@ -467,7 +482,7 @@ body {
   }
   .service .service-wrapper .service-container .service-item {
     padding: 30px 0;
-    width: 70%;
+    width: 80%;
     margin: 0 auto 40px;
   }
   .works {
@@ -478,7 +493,7 @@ body {
         grid-template-columns: 1fr;
   }
   .contact .btn a {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 /*# sourceMappingURL=index.css.map */
