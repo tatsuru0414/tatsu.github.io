@@ -481,9 +481,12 @@ body {
             flex-flow: column;
   }
   .service .service-wrapper .service-container .service-item {
-    padding: 30px 0;
+    padding: 30px 30px;
     width: 80%;
     margin: 0 auto 40px;
+  }
+  .service .service-wrapper .service-container .service-item .img{
+   width:100px; 
   }
   .works {
     height: 100%;
